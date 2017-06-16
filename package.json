@@ -1,0 +1,39 @@
+{
+  "name": "pensieve-native2",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "0.0.31",
+    "jest-expo": "~1.0.1",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "events": "^1.1.1",
+    "expo": "^17.0.0",
+    "immutability-helper": "^2.2.2",
+    "pouchdb": "^6.2.0",
+    "pouchdb-adapter-asyncstorage": "^6.2.6",
+    "pouchdb-authentication": "^0.5.5",
+    "pouchdb-core": "^6.2.0",
+    "pouchdb-react-native": "^6.2.6",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-pouchdb": "^0.1.1",
+    "redux-thunk": "^2.2.0"
+  }
+}
